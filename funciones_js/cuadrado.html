@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cuadrado</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/funciones_areas_planas.css">
 </head>
 <body>
     <header>
@@ -55,17 +56,24 @@
         </div>
         </nav>
     </header>
-    <aside>
-        <section>
-
+    <h1>Figura solida : Cuadrado</h1>
+    <main >
+    <aside class="flex">
+        <section class="width marginl">
+            <img src="assets/image/cuadrado.jpg" alt="img">
         </section>
         <article>
-
+                <label for="area" class="form-label">Ingrese la area del Rectangulo:  </label>
+                <input type="number" class="form-control" id="area" name="area">
+                <button type="button" class="btn btn-success" onclick="cuadrado()">Enviar</button>
+                <p id="valor"></p>
         </article>
     </aside>
+    </main>
     <footer>
         
     </footer>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/funciones-areas-solidas.js"></script>
 </body>
 </html>

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rombo</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/funciones_areas_planas.css">
 </head>
 <body>
     <header>
@@ -55,17 +56,27 @@
         </div>
         </nav>
     </header>
-    <section>
-
-    </section>
-    <aside>
-        <article>
-
-        </article>
-    </aside>
+    <h1>Figura solida : Rombo</h1>
+    
+    <main class="flex">
+        <section class="width marginl">
+            <img src="assets/image/rombo.png" alt="img">
+        </section>
+        <aside>
+            <article>
+                    <label for="D-mayor" class="form-label">Ingrese la diagonal mayor:  </label>
+                    <input type="number" class="form-control" id="D-mayor" name="D-mayor">
+                    <label for="d-menor" class="form-label">Ingrese la diagonal menor: </label>
+                    <input type="number" class="form-control" id="d-menor" name="d-menor">
+                    <button type="button" class="btn btn-success" onclick="rombo()">Enviar</button>
+                    <p id="valor"></p>
+            </article>
+        </aside>
+    </main>
     <footer>
         
     </footer>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/funciones-areas-solidas.js"></script>
 </body>
 </html>

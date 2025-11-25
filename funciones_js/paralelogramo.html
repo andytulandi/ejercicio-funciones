@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>paralelogramo</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/funciones_areas_planas.css">
 </head>
 <body>
     <header>
@@ -15,7 +16,7 @@
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 " >
                 <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                 </li>
@@ -55,17 +56,26 @@
         </div>
         </nav>
     </header>
-    <section>
-
-    </section>
-    <aside>
-        <article>
-
-        </article>
-    </aside>
+    <h1>Figura solida : Paralelogramo</h1>
+    <main class="flex" class="width">
+        <section class="width marginl">
+            <img src="assets/image/paralelogramo.webp" alt="img" >
+        </section>
+        <aside>
+            <article >
+                <label for="base" class="form-label" >Ingrese la base del Cono:  </label>
+                <input type="number" class="form-control" id="base" name="base">
+                <label for="altura" class="form-label">Ingrese la altura del Cono: </label>
+                <input type="number" class="form-control" id="altura" name="altura">
+                <button type="button" class="btn btn-success" onclick="paralelogramo()">Enviar</button>
+                <p id="area"></p>
+            </article>
+        </aside>
+    </main>
     <footer>
         
     </footer>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/funciones-areas-solidas.js"></script>
 </body>
 </html>

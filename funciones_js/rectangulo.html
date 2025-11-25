@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rectangulo</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/funciones_areas_planas.css">
 </head>
 <body>
     <header>
@@ -55,17 +56,26 @@
         </div>
         </nav>
     </header>
-    <section>
-
-    </section>
-    <aside>
-        <article>
-
-        </article>
-    </aside>
+    <h1>Figura solida : Rectangulo</h1>
+    <main class="flex">
+        <section class="width marginl">
+            <img src="assets/image/rectangulo.png" alt="img">
+        </section>
+        <aside>
+            <article>
+                    <label for="base" class="form-label">Ingrese la base del Rectangulo:  </label>
+                    <input type="number" class="form-control" id="base" name="base">
+                    <label for="altura" class="form-label">Ingrese la altura del Rectangulo: </label>
+                    <input type="number" class="form-control" id="altura" name="altura">
+                    <button type="button" class="btn btn-success" onclick="rectangulo()">Enviar</button>
+                    <p id="area"></p>
+            </article>
+        </aside>
+    </main>
     <footer>
         
     </footer>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/funciones-areas-solidas.js"></script>
 </body>
 </html>

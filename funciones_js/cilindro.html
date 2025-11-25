@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cilindro</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/funciones_areas_planas.css">
+
 </head>
 <body>
     <header>
@@ -55,17 +57,26 @@
         </div>
         </nav>
     </header>
-    <aside> 
-        <article>
-
+    <h1>Figura plana : Cilindro</h1>
+    <main>
+    <aside class="flex"> 
+        <article class="width heigh" >
+            <img src="assets/image/cilindro.webp" alt="img" class="container-sm">
         </article>
-        <section>
-
+        <section class="width">
+            <label for="radio" class="form-label">Ingrese el radio del circulo:  </label>
+                <input type="number" class="form-control" id="radio" name="radio">
+                <label for="altura" class="form-label">Ingrese la altura del cilindro: </label>
+                <input type="number" class="form-control" id="altura" name="altura">
+                <button type="button" class="btn btn-success" onclick="cilindro()">Enviar</button>
         </section>
+        <p id="vol"></p>
     </aside>
+    </main>
     <footer>
         
     </footer>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/funciones_areas_planas.js"></script>
 </body>
 </html>

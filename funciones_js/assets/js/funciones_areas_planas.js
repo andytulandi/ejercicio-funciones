@@ -1,5 +1,5 @@
 /**
- * area de la figura solida
+ * volumen de la figura solida
  */
 
 function cubo(){
@@ -10,11 +10,11 @@ function cubo(){
     let resultado = lado1*lado2*lado3;
 
     document.getElementById("resultado").innerHTML =
-    "el area del cubo es: " + resultado;
+    "el volumen del cubo es: " + resultado;
 
     }
     /**
-     * area de la figura solida paralelepipedo
+     * volumen de la figura solida paralelepipedo
      */
 
     function paralelpipedo(){
@@ -25,7 +25,41 @@ function cubo(){
         let resul = longitud*base*altura;
 
         document.getElementById("resul").innerHTML =
-        "el area del cubo es: " + resul;
+        "el volumen del cubo es: " + resul;
 
     }
-    
+    /**
+     * volumen de la figura solida cilindro
+     */
+
+    function cilindro(){
+        let r = document.getElementById("radio").value;
+        let h = document.getElementById("altura").value;
+
+        let volumen = Math.PI*r*r*h;
+        document.getElementById("vol").innerHTML =
+        "el volumen del cilindro es: " + volumen;
+    }
+    /**
+     * volumen de la figura solida esfera
+     */
+
+    function Esfera(){
+        let r = document.getElementById("radio").value;
+
+        let volumen = (4/3)*Math.PI*r*r*r;
+        document.getElementById("vol").innerHTML =
+        "el volumen de la esfera es: " + volumen;
+
+    }
+    /**
+     * volumen de la figura solida cono
+     */
+    function cono(){
+        let r = document.getElementById("radio").value;
+        let h = document.getElementById("altura").value;
+
+        let volumen = (1/3)*Math.PI*r*r*h;
+        document.getElementById("vol").innerHTML =
+        "el volumen del cono es: " + volumen;
+    }

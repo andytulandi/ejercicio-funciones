@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trapecio</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/funciones_areas_planas.css">
 </head>
 <body>
     <header>
@@ -55,17 +56,27 @@
         </div>
         </nav>
     </header>
-    <section>
-
-    </section>
-    <aside>
-        <article>
-
-        </article>
-    </aside>
+    <main class="flex">
+        <section class="width marginl container-sm">
+            <img src="assets/image/trapecio.jpg" alt="img">
+        </section>
+        <aside>
+            <article>
+                <label for="B-mayor" class="form-label">Ingrese la diagonal mayor:  </label>
+                    <input type="number" class="form-control" id="B-mayor" name="B-mayor">
+                    <label for="b-menor" class="form-label">Ingrese la diagonal menor: </label>
+                    <input type="number" class="form-control" id="b-menor" name="b-menor">
+                    <label for="altura" class="form-label">Ingrese la diagonal menor: </label>
+                    <input type="number" class="form-control" id="altura" name="altura">
+                    <button type="button" class="btn btn-success" onclick="trapecio()">Enviar</button>
+                    <p id="valor"></p>
+            </article>
+        </aside>
+    </main>
     <footer>
         
     </footer>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/funciones-areas-solidas.js"></script>
 </body>
 </html>

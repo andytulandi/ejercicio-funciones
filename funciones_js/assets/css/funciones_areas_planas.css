@@ -7,3 +7,19 @@ h1{
 .width{
     width: 50%;
 }
+.navbar-nav{
+    justify-content: space-around;
+}
+.heigh{
+    height: 400px;
+}
+.margin{
+    margin: 10px;
+    
+}
+.marginl{
+    margin-left: 150px;
+}
+.contenido{
+    justify-content: center;
+}

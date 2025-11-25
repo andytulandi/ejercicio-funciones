@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esfera</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/funciones_areas_planas.css">
 </head>
 <body>
     <header>
@@ -55,17 +56,25 @@
         </div>
         </nav>
     </header>
-    <section>
-
-    </section>
-    <aside>
-        <article>
-
-        </article>
-    </aside>
+    <h1>Figura plana : Esfera</h1>
+    <main class="flex">
+        <aside>
+            <article >
+                    <img src="assets/image/esfera.jpg" alt="img" class="container-xxl">
+            </article>
+        </aside>
+        <section class="width">
+            <label for="radio" class="form-label">Ingrese el radio de la esfera:  </label>
+                <input type="number" class="form-control" id="radio" name="radio">
+                <button type="button" class="btn btn-success" onclick="Esfera()">Enviar</button>
+                <p id="vol"></p>
+        </section>
+        
+    </main>
     <footer>
         
     </footer>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/funciones_areas_planas.js"></script>
 </body>
 </html>

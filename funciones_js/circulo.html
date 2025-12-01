@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>circulo</title>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/funciones_areas_planas.css">
 </head>
 <body>
     <header>
@@ -55,17 +56,24 @@
         </div>
         </nav>
     </header>
-    <aside>
-        <article>
-
-        </article>
-        <section>
-
-        </section>
-    </aside>
+    <h1>Figura solida : Circulo</h1>
+    <main>
+        <aside class="flex">
+            <article class="width marginl">
+                <img src="assets/image/circulo.jpg" alt="img">
+            </article>
+            <section>
+                <label for="radio" class="form-label ">Ingrese la diagonal mayor:  </label>
+                <input type="number" class="form-control" id="radio" name="radio">
+                <br><button type="button" class="btn btn-success" onclick="circulo()">Enviar</button>
+                <p id="circulo"></p>
+            </section>
+        </aside>
+    </main>
     <footer>
 
     </footer>
     <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="assets/js/funciones-areas-solidas.js"></script>
 </body>
 </html>

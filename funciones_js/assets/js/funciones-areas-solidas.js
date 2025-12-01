@@ -98,3 +98,17 @@ function trapecio(){
     document.getElementById("valor").innerHTML =
         "el area del rombo es: " + Area;
 }
+
+/**
+ * area de la figura plana del circulo
+ */
+
+function circulo(){
+    let r = document.getElementById("radio").value;
+
+    let Area = Math.PI*r*r;
+
+    document.getElementById("circulo").innerHTML =
+        "el area del circulo es: " + Area;
+
+}

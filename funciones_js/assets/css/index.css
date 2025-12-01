@@ -1,0 +1,55 @@
+main{
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 10px;
+
+}
+h1{
+    text-align: center;
+    height: 300px;
+    width: 99%;
+    
+
+}
+h2{
+    text-align: center;
+    height: 30px;
+    width: 99%;
+    
+}
+h3{
+    text-align: center;
+    height: 30px;
+    width: 99%;
+    
+}
+h4{
+    text-align: center;
+    height: 20px;
+    width: 99%;
+    margin-top: 10px;
+
+}
+aside{
+    background-color: aqua;
+    height: 400px;
+    width: 98%;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+footer{
+    background-color: aquamarine;
+    height: 100px;
+    width: 99%;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 10px;
+}
+section{
+    background-color: blueviolet;
+    height: 120px;
+    border-radius: 10px;
+    width: 98%;
+    margin: 20px;
+}
